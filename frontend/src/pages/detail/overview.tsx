@@ -31,7 +31,7 @@ const Overview: FC<Props> = ({ place }) => {
 
         <iframe
           loading="lazy"
-          className="w-full h-full aspect-video rounded-md lg:h-[300px] lg:max-w-[720px]"
+          className="w-full h-full aspect-video rounded-md lg:h-[300px] lg:max-w-[720px] xl:max-w-[980px]"
           src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyAyf-HfQR6bKGTAX-troRIUxP2C-cvrFXA
     &q=${place.location}`}
         ></iframe>
